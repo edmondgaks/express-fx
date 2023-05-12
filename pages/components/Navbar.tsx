@@ -40,27 +40,21 @@ const Navbar = () => {
                 <div>Selectioner un language</div>
             </div>
             <HeroSection />
-            <div className="w-[90%] h-[30vh] bg-[#1d1d1d] flex flex-row mx-auto py-20 justify-around">
-                <div className="flex flex-row gap-3">
-                    <Image src="/bitcoin.png" alt="Bitcoint 1" width={20} height={10} />
-                    <div className="flex flex-col gap-2">
-                        <div>CREATE YOUR ACCOUNT</div>
-                        <div className="text-xs text-light">Create your trading account with few and easy steps</div>
-                    </div>
+            <div className="w-[90%] h-[30vh] bg-[#1d1d1d] flex flex-row mx-auto justify-around gap-10 py-16 px-4 -translate-y-20">
+                <Image src="/bitcoin.png" alt="Bitcoint 1" width={60} height={30} />
+                <div className="flex flex-col gap-2">
+                    <div className="font-bold">Create Your Account</div>
+                    <div className="text-sm text-normal text-gray-400">Create your trading account with few and easy steps</div>
                 </div>
-                <div className="flex flex-row gap-3">
-                    <Image src="/bitcoin2.png" alt="Bitcoint 1" width={20} height={10} />
-                    <div className="flex flex-col gap-2">
-                        <div>FUND YOUR TRADING ACCOUNT</div>
-                        <div className="text-xs text-light">Create your trading account with few and easy steps</div>
-                    </div>
+                <Image src="/bitcoin2.png" alt="Bitcoint 3" width={60} height={30} />
+                <div className="flex flex-col gap-2">
+                    <div className="font-bold">Fund your trading account</div>
+                    <div className="text-sm text-normal text-gray-400">Create your trading account with few and easy steps</div>
                 </div>
-                <div className="flex flex-row gap-3">
-                    <Image src="/bitcoin3.png" alt="Bitcoint 1" width={20} height={10} />
-                    <div className="flex flex-col gap-2">
-                        <div>WITHDRAW YOUR PROFIT SECURELY</div>
-                        <div className="text-xs text-light">Create your trading account with few and easy steps</div>
-                    </div>
+                <Image src="/bitcoin3.png" alt="Bitcoint 2" width={60} height={30} />
+                <div className="flex flex-col gap-2">
+                    <div className="font-bold">Withdraw your profit securedly</div>
+                    <div className="text-sm text-normal text-gray-400">Create your trading account with few and easy steps</div>
                 </div>
             </div>
         </>

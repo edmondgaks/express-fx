@@ -32,7 +32,7 @@ const HeroSection = () => {
     }
     return (
         <>
-            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}} className="w-[100%] h-[90vh] flex flex-col justify-center">
+            <div style={{ backgroundImage: `url(${slides[currentIndex].url})`}} className="w-[100%] h-[100vh] flex flex-col justify-center">
                 {currentIndex == 0 ? (
                     <>
                     <div className="flex flex-row gap-3 justify-center">
