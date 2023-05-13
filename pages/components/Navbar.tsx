@@ -2,9 +2,7 @@ import React, { useState } from "react"
 import Image from "next/image";
 import AuthButtons from "./AuthButtons";
 import NavLinks from "./NavLinks";
-import HeroSection from "./HeroSection";
-import AboutUs from "./AboutUs";
-import BannerAccount from "./BannerAccount";
+
 const Navbar = () => {
     return (
         <>
@@ -40,10 +38,7 @@ const Navbar = () => {
             <div className="flex flex-col bg-[#1d1d1d] h-[40px]">
                 <div>Selectioner un language</div>
             </div>
-            <HeroSection />
-            <BannerAccount />
-           
-            <AboutUs />
+            
         </>
     )
 }
